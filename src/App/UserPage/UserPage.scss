@@ -1,0 +1,19 @@
+.page {
+  padding: 2em;
+  text-align: center;
+
+  .profile {
+
+    .ant-typography {
+      margin: 0.2em 0;
+    }
+
+    h4.ant-typography {
+      font-size: 1em;
+    }
+  }
+
+  .auth {
+    margin-top: 2em;
+  }
+}

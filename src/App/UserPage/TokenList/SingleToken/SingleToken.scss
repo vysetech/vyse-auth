@@ -1,0 +1,26 @@
+.token {
+  text-align: left;
+  padding: 10px;
+
+  .ant-card-hoverable {
+    cursor: default;
+  }
+
+  .ant-typography {
+    margin: 0.2em 0 !important;
+  }
+
+  .code {
+    margin: 0.4em 0 !important;
+  }
+}
+
+.info-holder {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+
+  .ant-typography {
+    margin: 0;
+  }
+}

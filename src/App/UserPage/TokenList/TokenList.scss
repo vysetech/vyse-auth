@@ -1,0 +1,45 @@
+@mixin resp-column($breakpoint, $count) {
+  @media (min-width: $breakpoint) {
+    & {
+      grid-template-columns: repeat($count, calc(#{100/$count}* 1%));
+    }
+  }
+}
+
+.tokens {
+  display: grid;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+
+  @include resp-column(40em, 1);
+  @include resp-column(60em, 2);
+  @include resp-column(80em, 3);
+  @include resp-column(100em, 4);
+  @include resp-column(120em, 5);
+}
+
+.actions,
+.ant-empty {
+  padding: 1em 0;
+}
+
+.ant-empty,
+.ant-skeleton {
+  grid-column: 1/-1;
+}
+
+.add-holder {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+
+  .login-form-button {
+    width: 100%;
+  }
+}
+
+.qr-holder {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
