@@ -13,6 +13,11 @@
     }
   }
 
+  img.mock-reset {
+    max-width: 100%;
+    width: unset;
+  }
+
   .link>.ant-typography {
     border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
     display: inline-block;

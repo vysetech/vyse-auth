@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserSession, AppConfig } from 'blockstack';
-import { Layout } from 'antd';
+import { Layout, Typography } from 'antd';
 import UserPage from './UserPage/UserPage';
 
 import './App.scss';
@@ -55,7 +55,12 @@ export class App extends React.PureComponent {
             }
           </div>
         </Content>
-        <Footer>&copy; 2019 Vyse</Footer>
+        <Footer>
+          <a href="https://vyse.in" target="_blank" rel="noopener noreferrer">
+            <img src="https://vyse.in/images/logo/default.png" style={{ maxWidth: '90px', marginBottom: '1.2em' }} alt="Vyse" />
+            <Typography.Paragraph>&copy; 2019 Vyse</Typography.Paragraph>
+          </a>
+        </Footer>
       </Layout>
     );
   }

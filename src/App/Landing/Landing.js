@@ -28,6 +28,14 @@ export class Landing extends React.PureComponent {
             </Button>
           </Col>
         </Row>
+        <Row type="flex" align="middle">
+          <Col xs={24} sm={16}>
+            <img src="/images/mockup-desktop.png" alt="Vyse Auth" className="mock-reset" />
+          </Col>
+          <Col xs={24} sm={8}>
+            <img src="/images/mockup-mobile.png" alt="Vyse Auth" className="mock-reset" />
+          </Col>
+        </Row>
         <Row>
           <Col xs={24} sm={12}>
             <img src="/images/why.png" alt="" />
