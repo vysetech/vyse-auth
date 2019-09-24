@@ -26,6 +26,11 @@ export class Landing extends React.PureComponent {
             <Button size="large" type="primary" onClick={signIn.bind(this)}>
               Sign In with Blockstack
             </Button>
+            <Typography.Paragraph>
+              <a href="https://www.producthunt.com/posts/vyse-auth?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vyse-auth" target="_blank" rel="noopener noreferrer">
+                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=168984&theme=dark" alt="Vyse Auth - Privacy First and Always Available 2FA Token Manager | Product Hunt Embed" style={{ width: "250px", height: "54px", marginTop: "2em" }} width="250px" height="54px" />
+              </a>
+            </Typography.Paragraph>
           </Col>
         </Row>
         <Row type="flex" align="middle">
